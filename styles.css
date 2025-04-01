@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Fond bleu clair doux */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff69b4; /* Rose vif festif */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #ff4500; /* Orange vif pour les titres */
+}
+
+.photo-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.photo-gallery img {
+    margin: 10px;
+    border: 2px solid #ff69b4;
+    border-radius: 10px;
+}
+
+#gift-box {
+    cursor: pointer;
+    margin: 20px auto;
+}
+
+#gift-button {
+    background-color: #ff69b4; /* Une couleur rose vif */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin: 20px auto;
+    display: block; /* Centre le bouton */
+}
+
+#message {
+    background-color: #ffeb3b; /* Jaune clair */
+    padding: 20px;
+    border: 2px solid #ff4500; /* Orange vif */
+    border-radius: 10px;
+    text-align: center;
+}
+#back-to-top {
+    position: fixed;        /* Reste en place même en scrollant */
+    bottom: 20px;           /* 20px au-dessus du bas */
+    right: 20px;            /* 20px à droite */
+    background-color: #ff69b4; /* Rose vif */
+    color: white;
+    border: none;
+    border-radius: 50%;     /* Forme ronde */
+    width: 50px;
+    height: 50px;
+    font-size: 24px;        /* Taille de la flèche */
+    cursor: pointer;
+    display: none;          /* Caché par défaut */
+    transition: opacity 0.3s; /* Transition douce */
+}
+
+#back-to-top:hover {
+    background-color: #ff4500; /* Orange au survol */
+    opacity: 0.8;
+}

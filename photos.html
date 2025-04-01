@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogue de Photos🤩😎🧞‍♂️</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="surprise.html">Surprise</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Catalogue de Photos📷🃏</h1>
+        <p>Voici des souvenirs pour toi, Marie Grâce ! 🎉📸</p>
+        <p>Enjoy your day !🥰🙈🙊🙉</p>
+        <div class="photo-gallery">
+            <img src="Images (Marie Grâce)/A/B/é/C/H/y/A/P/O/M/A/R/I/E/G/R/Â/C/E/photos/Marie1.jpg" alt="Images">
+            <img src="Images (Marie Grâce)/A/B/é/C/H/y/A/P/O/M/A/R/I/E/G/R/Â/C/E/photos/Marie2.jpg" alt="Images">
+            <img src="Images (Marie Grâce)/A/B/é/C/H/y/A/P/O/M/A/R/I/E/G/R/Â/C/E/photos/Marie3.jpg" alt="Images">
+            <img src="Images (Marie Grâce)/A/B/é/C/H/y/A/P/O/M/A/R/I/E/G/R/Â/C/E/photos/Marie4.jpg" alt="Images">
+            <img src="Images (Marie Grâce)/A/B/é/C/H/y/A/P/O/M/A/R/I/E/G/R/Â/C/E/photos/Marie5.jpg" alt="Images">
+            <img src="Images (Marie Grâce)/A/B/é/C/H/y/A/P/O/M/A/R/I/E/G/R/Â/C/E/photos/Marie6.jpg" alt="Images">
+            <img src="Images (Marie Grâce)/A/B/é/C/H/y/A/P/O/M/A/R/I/E/G/R/Â/C/E/photos/Marie7.jpg" alt="Images">
+            <img src="Images (Marie Grâce)/A/B/é/C/H/y/A/P/O/M/A/R/I/E/G/R/Â/C/E/photos/Marie8.jpg" alt="Images">
+            <img src="Images (Marie Grâce)/A/B/é/C/H/y/A/P/O/M/A/R/I/E/G/R/Â/C/E/photos/Marie9.jpg" alt="Images">
+            <img src="Images (Marie Grâce)/A/B/é/C/H/y/A/P/O/M/A/R/I/E/G/R/Â/C/E/photos/Marie10.jpg" alt="Images">
+            <img src="Images (Marie Grâce)/A/B/é/C/H/y/A/P/O/M/A/R/I/E/G/R/Â/C/E/photos/Marie11.jpg" alt="Images">
+            <img src="Images (Marie Grâce)/A/B/é/C/H/y/A/P/O/M/A/R/I/E/G/R/Â/C/E/photos/Marie12.jpg" alt="Images">
+            <img src="Images (Marie Grâce)/A/B/é/C/H/y/A/P/O/M/A/R/I/E/G/R/Â/C/E/photos/Marie13.jpg" alt="Images">
+            <img src="Images (Marie Grâce)/A/B/é/C/H/y/A/P/O/M/A/R/I/E/G/R/Â/C/E/photos/Marie14.jpg" alt="Images">
+            <img src="Images (Marie Grâce)/A/B/é/C/H/y/A/P/O/M/A/R/I/E/G/R/Â/C/E/photos/Marie15.jpg" alt="Images">
+            <img src="Images (Marie Grâce)/A/B/é/C/H/y/A/P/O/M/A/R/I/E/G/R/Â/C/E/photos/Marie16.jpg" alt="Images">
+            <img src="Images (Marie Grâce)/A/B/é/C/H/y/A/P/O/M/A/R/I/E/G/R/Â/C/E/photos/Marie17.jpg" alt="Images">
+        </div>
+        <!-- Bouton Retour en haut -->
+        <button id="back-to-top" title="Retour en haut">⬆️</button>
+    </main>
+    <!-- Script JavaScript intégré -->
+    <script>
+        // Afficher le bouton quand on scrolle
+        window.onscroll = function() {
+            const button = document.getElementById("back-to-top");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                button.style.display = "block";
+            } else {
+                button.style.display = "none";
+            }
+        };
+
+        // Remonter en haut avec un défilement fluide
+        document.getElementById("back-to-top").addEventListener("click", function() {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    </script>
+</body>
+</html>

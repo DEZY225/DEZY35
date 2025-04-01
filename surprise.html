@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surprise !🃏</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<script>
+    function openGift() {
+        document.getElementById('gift-button').style.display = 'none';
+        document.getElementById('message').style.display = 'block';
+    }
+</script>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="surprise.html">Surprise</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Surprise !</h1>
+        <p>Clique sur le bouton pour découvrir ton cadeau !💝💖</p>
+        <button id="gift-button" onclick="openGift()">Ton Cadeau💝💖</button>
+        <div id="message" style="display: none;">
+            <h2>Poisson d'avril !😻</h2>
+            <p>Poisson d'avril !!😂🤣😹 Ha ha !! Tu ne pensais tout de même pas que j'allais oublié de te faire une farce🐒</p>
+            <p> April Fool's Day🤡👻</p>
+            <p>Día de los Inocentes🙈🙊🙉</p>
+            <p>Féliz compléaños, te quiero mucho🫶🏾 😇</p>
+        </div>
+    </main>
+</body>
+</html>
